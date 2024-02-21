@@ -1997,11 +1997,142 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ngrok/ngrok-darwin-arm64@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@ngrok/ngrok-darwin-arm64@npm:0.1.1"
-  checksum: d5139f5b45b54c2ae32300247ec35b3b1c582a95c09c87a9fcc8d3724c231d7132bf434bb79d840d19cfbf70bd6bfe262a004fe47419ef5cdf53c65678053e6f
+"@ngrok/ngrok-android-arm-eabi@npm:0.9.1":
+  version: 0.9.1
+  resolution: "@ngrok/ngrok-android-arm-eabi@npm:0.9.1"
+  conditions: os=android & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@ngrok/ngrok-android-arm64@npm:0.9.1":
+  version: 0.9.1
+  resolution: "@ngrok/ngrok-android-arm64@npm:0.9.1"
+  conditions: os=android & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@ngrok/ngrok-darwin-arm64@npm:0.9.1":
+  version: 0.9.1
+  resolution: "@ngrok/ngrok-darwin-arm64@npm:0.9.1"
   conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@ngrok/ngrok-darwin-universal@npm:0.9.1":
+  version: 0.9.1
+  resolution: "@ngrok/ngrok-darwin-universal@npm:0.9.1"
+  conditions: os=darwin
+  languageName: node
+  linkType: hard
+
+"@ngrok/ngrok-darwin-x64@npm:0.9.1":
+  version: 0.9.1
+  resolution: "@ngrok/ngrok-darwin-x64@npm:0.9.1"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@ngrok/ngrok-freebsd-x64@npm:0.9.1":
+  version: 0.9.1
+  resolution: "@ngrok/ngrok-freebsd-x64@npm:0.9.1"
+  conditions: os=freebsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@ngrok/ngrok-linux-arm-gnueabihf@npm:0.9.1":
+  version: 0.9.1
+  resolution: "@ngrok/ngrok-linux-arm-gnueabihf@npm:0.9.1"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@ngrok/ngrok-linux-arm64-gnu@npm:0.9.1":
+  version: 0.9.1
+  resolution: "@ngrok/ngrok-linux-arm64-gnu@npm:0.9.1"
+  conditions: os=linux & cpu=arm64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@ngrok/ngrok-linux-arm64-musl@npm:0.9.1":
+  version: 0.9.1
+  resolution: "@ngrok/ngrok-linux-arm64-musl@npm:0.9.1"
+  conditions: os=linux & cpu=arm64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@ngrok/ngrok-linux-x64-gnu@npm:0.9.1":
+  version: 0.9.1
+  resolution: "@ngrok/ngrok-linux-x64-gnu@npm:0.9.1"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@ngrok/ngrok-linux-x64-musl@npm:0.9.1":
+  version: 0.9.1
+  resolution: "@ngrok/ngrok-linux-x64-musl@npm:0.9.1"
+  conditions: os=linux & cpu=x64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@ngrok/ngrok-win32-ia32-msvc@npm:0.9.1":
+  version: 0.9.1
+  resolution: "@ngrok/ngrok-win32-ia32-msvc@npm:0.9.1"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"@ngrok/ngrok-win32-x64-msvc@npm:0.9.1":
+  version: 0.9.1
+  resolution: "@ngrok/ngrok-win32-x64-msvc@npm:0.9.1"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@ngrok/ngrok@npm:^0.*":
+  version: 0.9.1
+  resolution: "@ngrok/ngrok@npm:0.9.1"
+  dependencies:
+    "@ngrok/ngrok-android-arm-eabi": 0.9.1
+    "@ngrok/ngrok-android-arm64": 0.9.1
+    "@ngrok/ngrok-darwin-arm64": 0.9.1
+    "@ngrok/ngrok-darwin-universal": 0.9.1
+    "@ngrok/ngrok-darwin-x64": 0.9.1
+    "@ngrok/ngrok-freebsd-x64": 0.9.1
+    "@ngrok/ngrok-linux-arm-gnueabihf": 0.9.1
+    "@ngrok/ngrok-linux-arm64-gnu": 0.9.1
+    "@ngrok/ngrok-linux-arm64-musl": 0.9.1
+    "@ngrok/ngrok-linux-x64-gnu": 0.9.1
+    "@ngrok/ngrok-linux-x64-musl": 0.9.1
+    "@ngrok/ngrok-win32-ia32-msvc": 0.9.1
+    "@ngrok/ngrok-win32-x64-msvc": 0.9.1
+  dependenciesMeta:
+    "@ngrok/ngrok-android-arm-eabi":
+      optional: true
+    "@ngrok/ngrok-android-arm64":
+      optional: true
+    "@ngrok/ngrok-darwin-arm64":
+      optional: true
+    "@ngrok/ngrok-darwin-universal":
+      optional: true
+    "@ngrok/ngrok-darwin-x64":
+      optional: true
+    "@ngrok/ngrok-freebsd-x64":
+      optional: true
+    "@ngrok/ngrok-linux-arm-gnueabihf":
+      optional: true
+    "@ngrok/ngrok-linux-arm64-gnu":
+      optional: true
+    "@ngrok/ngrok-linux-arm64-musl":
+      optional: true
+    "@ngrok/ngrok-linux-x64-gnu":
+      optional: true
+    "@ngrok/ngrok-linux-x64-musl":
+      optional: true
+    "@ngrok/ngrok-win32-ia32-msvc":
+      optional: true
+    "@ngrok/ngrok-win32-x64-msvc":
+      optional: true
+  checksum: b730ccfc572a312ffadfb12afe2ceffbed95f7b239b7ae75302c7668fe2f24ef3320a908651d244ccae053cf2774cc96c440d208c0920798206d73c8716d74d9
   languageName: node
   linkType: hard
 
@@ -5895,9 +6026,9 @@ __metadata:
   linkType: hard
 
 "ip@npm:^1.1.5":
-  version: 1.1.8
-  resolution: "ip@npm:1.1.8"
-  checksum: a2ade53eb339fb0cbe9e69a44caab10d6e3784662285eb5d2677117ee4facc33a64679051c35e0dfdb1a3983a51ce2f5d2cb36446d52e10d01881789b76e28fb
+  version: 1.1.9
+  resolution: "ip@npm:1.1.9"
+  checksum: b6d91fd45a856e3bd6d4f601ea0619d90f3517638f6918ebd079f959a8a6308568d8db5ef4fdf037e0d9cfdcf264f46833dfeea81ca31309cf0a7eb4b1307b84
   languageName: node
   linkType: hard
 
@@ -8749,7 +8880,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@ngrok/ngrok-darwin-arm64": ^0.1.1
+    "@ngrok/ngrok": ^0.*
     "@remix-run/dev": ^1.15.0
     "@remix-run/eslint-config": ^1.15.0
     "@remix-run/node": ^1.15.0
@@ -8841,11 +8972,11 @@ __metadata:
   linkType: hard
 
 "semver@npm:^6.1.0, semver@npm:^6.1.1, semver@npm:^6.1.2, semver@npm:^6.3.0":
-  version: 6.3.0
-  resolution: "semver@npm:6.3.0"
+  version: 6.3.1
+  resolution: "semver@npm:6.3.1"
   bin:
-    semver: ./bin/semver.js
-  checksum: 1b26ecf6db9e8292dd90df4e781d91875c0dcc1b1909e70f5d12959a23c7eebb8f01ea581c00783bbee72ceeaad9505797c381756326073850dc36ed284b21b9
+    semver: bin/semver.js
+  checksum: ae47d06de28836adb9d3e25f22a92943477371292d9b665fb023fae278d345d508ca1958232af086d85e0155aee22e313e100971898bbb8d5d89b8b1d4054ca2
   languageName: node
   linkType: hard
 
